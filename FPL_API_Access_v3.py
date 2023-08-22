@@ -20,7 +20,8 @@ real_elements_df = elements_df_2[['team', 'id', 'first_name', 'second_name', 'we
                                   , 'assists', 'clean_sheets', 'status', 'form' , 'ep_next', 'ep_this'
                                   , 'event_points', 'points_per_game', 'value_form', 'value_season'
                                   , 'penalties_saved', 'penalties_missed', 'yellow_cards', 'red_cards'
-                                  , 'bps', 'influence', 'creativity', 'threat', 'ict_index', 'influence_rank'
+                                  , 'bps','expected_goals', 'expected_assists', 'expected_goal_involvements'
+                                  , 'influence', 'creativity', 'threat', 'ict_index', 'influence_rank'
                                   , 'influence_rank_type', 'creativity_rank', 'creativity_rank_type'
                                   , 'threat_rank', 'threat_rank_type', 'ict_index_rank'
                                   , 'ict_index_rank_type']]
